@@ -6,7 +6,8 @@
     <div class="event-card -shadow">
       <span class="eyebrow">@{{ event.time }} on {{ event.date }}</span>
       <h4 class="title">{{ event.title }}</h4>
-      <span>{{ event.atendees.length }} attending</span>
+      <BaseIcon name="users" />
+      <span>{{ event.attendees.length }} attending</span>
     </div>
   </router-link>
 </template>
@@ -18,11 +19,11 @@ export default {
       event: {
         id: 1,
         title: 'Beach Cleanup',
-        date: 'Jueves 21 de febrero 2019',
+        date: 'Tues Aug 19, 2018',
         time: '6:00',
-        atendees: [
-          { id: 'abc123', name: 'omar' },
-          { id: 'def456', name: 'gil' }
+        attendees: [
+          { id: 'abc123', name: 'Adam Jahr' },
+          { id: 'def456', name: 'Gregg Pollack' }
         ]
       }
     }
@@ -44,7 +45,6 @@ export default {
 .event-card > .title {
   margin: 0;
 }
-
 .event-link {
   color: black;
   text-decoration: none;
