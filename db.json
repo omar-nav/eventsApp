@@ -2,34 +2,6 @@
   "events": [
     {
       "id": 1,
-      "title": "pursue dreams",
-      "date": "Aug 28 2018",
-      "time": "10:00",
-      "location": "CDMX",
-      "description": "A collection of atoms believing it is autonomous",
-      "organizer": "omar",
-      "category": "sustainability",
-      "attendees": [
-        {
-          "id": "abc123",
-          "name": "Adam Jahr"
-        },
-        {
-          "id": "def456",
-          "name": "Gregg Pollack"
-        },
-        {
-          "id": "ghi789",
-          "name": "Beth Swanson"
-        },
-        {
-          "id": "jkl101",
-          "name": "Mary Gordon"
-        }
-      ]
-    },
-    {
-      "id": 1,
       "title": "Beach Cleanup",
       "date": "Aug 28 2018",
       "time": "10:00",
@@ -258,6 +230,24 @@
       "location": "Your House",
       "date": "",
       "time": "5:00",
+      "attendees": []
+    },
+    {
+      "id": 4810533,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "category": "food",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "title": "chasing dreams",
+      "description": "a collection of atoms is convinced of its autonomy",
+      "location": "cdmx",
+      "date": "2019-02-27T16:37:00.000Z",
+      "time": "14:00",
       "attendees": []
     }
   ]
